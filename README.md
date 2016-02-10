@@ -5,5 +5,18 @@ A pseudo-random collection of things I've learned as I make software. Most will 
 > "An ounce of practice is generally worth more than a ton of theory." - Ernst F. Shumacher
 
 
+---
 
- 
+### Categories
+
+* [Clojure](#clojure)
+* [AWS S3 CLI](#AWS)
+
+### Clojure
+
+- [Laziness and Exceptions](clojure/laziness-and-exceptions.md)
+
+
+### AWS
+
+- [Listing items in a bucket with AWS CLI](aws/listing-items-in-bucket-with-aws-cli.md)
