@@ -20,3 +20,7 @@ A pseudo-random collection of things I've learned as I make software. Most will 
 ### AWS
 
 - [Listing items in a bucket with AWS CLI](aws/listing-items-in-bucket-with-aws-cli.md)
+
+### Scala
+
+- [Scala Concurrency](scala/concurrency.md)
