@@ -1,0 +1,34 @@
+
+# Install Java8 With Brew
+
+```
+brew update
+brew tap caskroom/cask
+brew install Caskroom/cask/java
+```
+
+# Check versions installed in the system
+
+```
+ls /Library/Java/JavaVirtualMachines/
+```
+
+# Activate Java8 on current shell instance
+
+```
+export JAVA_HOME='/usr/libexec/java_home -v 1.8.0_131'
+```
+
+# Verify active version
+
+```
+java -version
+```
+
+# Make the change permanent
+
+Add the following line to ~/.bash_profile
+
+```
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+```
